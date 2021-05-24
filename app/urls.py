@@ -21,8 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # Product Api
-    path('api/products/', include('product_models.products.urls')),
-    # path('api/product-builds/', include('pcr_models.products.product_builds.urls')),
-    # path('api/product-supplies/', include('pcr_models.products.product_supplies.urls')),
-    # path('api/product-stocks/', include('pcr_models.products.product_stocks.urls')),
+    path('api/products/', include('product_models.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

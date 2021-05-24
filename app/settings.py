@@ -38,10 +38,7 @@ INSTALLED_APPS = [
     # django rest-framework
     'rest_framework',
     # products
-    'product_models.products.apps.ProductConfig',
-    # 'pcr_models.products.product_stocks.apps.ProductStocksConfig',
-    # 'pcr_models.products.product_supplies.apps.ProductSuppliesConfig',
-    # 'pcr_models.products.product_builds.apps.ProductBuildsConfig',
+    'product_models.apps.ProductConfig',
     # Clean-Up
     'django_cleanup.apps.CleanupConfig',  # should go after your apps
     # Filter
