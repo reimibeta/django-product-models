@@ -1,0 +1,12 @@
+Django==3.1.7
+django-admin-list-filter-dropdown==1.0.3
+datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git
+html-render-utils @ git+https://github.com/reimibeta/django-html-render-utils.git
+rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git
+djangorestframework==3.12.4
+djangorestframework-simplejwt==4.7.0
+Pillow==8.2.0
+django-cleanup==5.2.0
+drf-flex-fields==0.9.0
+image-utils @ git+https://github.com/reimibeta/django-image-utils.git
+stock-algorithms @ git+https://github.com/reimibeta/django-stock-utils.git

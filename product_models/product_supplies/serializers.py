@@ -1,0 +1,2 @@
+# product supply
+from .product_supply_serializiers.product_supply_serializers import ProductSupplySerializer
