@@ -2,13 +2,10 @@ from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter, RelatedDropdownFilter
 from html_render_utils.html_render import HtmlRender
 
-from pcr_models.products.product_stocks.models import ProductStock
-from pcr_models.products.product_supplies.product_supply_admins.product_supply_delivery_admin import \
-    ProductSupplyDeliveryAdminInline
-from pcr_models.products.product_supplies.product_supply_admins.product_supply_stock_admin import \
-    ProductSupplyStockAdminInline
-from pcr_models.products.product_supplies.product_supply_models.product_supply import ProductSupply
-from pcr_models.products.product_supplies.product_supply_models.product_supply_stock import ProductSupplyStock
+from product_models.product_supplies.class_admins.product_supply_delivery_admin import ProductSupplyDeliveryAdminInline
+from product_models.product_supplies.class_admins.product_supply_stock_admin import ProductSupplyStockAdminInline
+from product_models.product_supplies.class_models.product_supply import ProductSupply
+from product_models.product_supplies.class_models.product_supply_stock import ProductSupplyStock
 
 
 class ProductSupplyAdmin(admin.ModelAdmin):

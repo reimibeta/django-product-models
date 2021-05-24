@@ -1,8 +1,7 @@
 from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter, RelatedDropdownFilter
 
-from pcr_models.products.product_supplies.product_supply_models.product_supply_deliveries import ProductSupplyDelivery
-from pcr_models.staffs.staff_groups.staff_group_models.staff_deliver import StaffDeliver
+from product_models.product_supplies.class_models.product_supply_deliveries import ProductSupplyDelivery
 
 
 class ProductSupplyDeliveryAdmin(admin.ModelAdmin):
@@ -36,11 +35,11 @@ class ProductSupplyDeliveryAdmin(admin.ModelAdmin):
         else:
             return "not provided"
 
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if db_field.name == "deliver":
-            # db_field['customer']
-            kwargs["queryset"] = StaffDeliver.objects.filter(is_active=True).all()
-        return super().formfield_for_foreignkey(db_field, request, **kwargs)
+    # def formfield_for_foreignkey(self, db_field, request, **kwargs):
+    #     if db_field.name == "deliver":
+    #         # db_field['customer']
+    #         kwargs["queryset"] = StaffDeliver.objects.filter(is_active=True).all()
+    #     return super().formfield_for_foreignkey(db_field, request, **kwargs)
 
 
 admin.site.register(ProductSupplyDelivery, ProductSupplyDeliveryAdmin)

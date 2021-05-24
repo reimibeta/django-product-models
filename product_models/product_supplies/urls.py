@@ -1,6 +1,6 @@
 from django.conf.urls import url
 from django.urls import path, include
-from pcr_models.products.product_supplies import views
+from product_models.product_supplies import views
 from rest_framework import routers
 
 router = routers.DefaultRouter()

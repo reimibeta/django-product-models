@@ -1,8 +1,8 @@
 from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter, RelatedDropdownFilter
 
-from pcr_models.products.product_stocks.models import ProductStock
-from pcr_models.products.product_supplies.product_supply_models.product_supply_stock import ProductSupplyStock
+from product_models.product_stocks.models import ProductStock
+from product_models.product_supplies.class_models.product_supply_stock import ProductSupplyStock
 
 
 class ProductSupplyStockAdmin(admin.ModelAdmin):

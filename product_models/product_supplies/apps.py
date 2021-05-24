@@ -2,5 +2,5 @@ from django.apps import AppConfig
 
 
 class ProductSuppliesConfig(AppConfig):
-    name = 'pcr_models.products.product_supplies'
+    name = 'product_models.product_supplies'
     verbose_name = 'Product Supplies'
