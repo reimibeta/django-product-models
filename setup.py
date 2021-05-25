@@ -23,6 +23,7 @@ setuptools.setup(
         'django-admin-list-filter-dropdown==1.0.3',
         'rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git',
         'pillow==8.2.0',
+        'django-cleanup==5.2.0'
     ]
     # scripts=['makemigrations.py','migrate.py']
 )
