@@ -1,7 +1,8 @@
 from rest_flex_fields import FlexFieldsModelSerializer
 
 from product_models.class_models.product_size import ProductSize
-from product_models.class_serializers.product_size_format_set_serializers import ProductSizeFormatSetSerializer
+from product_models.class_serializers.product_size_format_set_serializers import \
+    ProductSizeFormatSetSerializer
 
 
 class ProductSizeSerializer(FlexFieldsModelSerializer):
