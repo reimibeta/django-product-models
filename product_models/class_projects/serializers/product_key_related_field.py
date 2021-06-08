@@ -5,12 +5,12 @@ from product_models.class_models.product import Product
 
 class ProductKeyRelatedField:
 
-    def related_field(self):
+    def related_field(self, write_only=True):
         return serializers.PrimaryKeyRelatedField(
             queryset=Product.objects.filter(
                 is_active=True
             ),
-            write_only=True
+            write_only=write_only
         )
 
 

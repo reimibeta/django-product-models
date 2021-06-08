@@ -3,6 +3,7 @@ from rest_framework import serializers
 
 from product_models.class_models.product import Product
 from product_models.class_models.product_price import ProductPrice, ProductCurrency
+from product_models.class_projects.serializers.product_key_related_field import product_key_related_field
 
 
 class ProductCurrencySerializer(FlexFieldsModelSerializer):
@@ -32,12 +33,7 @@ class ProductPriceSerializer(FlexFieldsModelSerializer):
     def product_price_define(self, obj):
         return "{} {}".format(obj.price, obj.currency.currency)
 
-    product = serializers.PrimaryKeyRelatedField(
-        queryset=Product.objects.filter(
-            is_active=True
-        ),
-        write_only=True
-    )
+    product = product_key_related_field.related_field()
 
     class Meta:
         model = ProductPrice
