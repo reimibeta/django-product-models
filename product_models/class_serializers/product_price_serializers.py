@@ -1,6 +1,7 @@
 from rest_flex_fields import FlexFieldsModelSerializer
 from rest_framework import serializers
 
+from product_models.class_models.product import Product
 from product_models.class_models.product_price import ProductPrice, ProductCurrency
 
 
@@ -30,6 +31,13 @@ class ProductPriceSerializer(FlexFieldsModelSerializer):
 
     def product_price_define(self, obj):
         return "{} {}".format(obj.price, obj.currency.currency)
+
+    product = serializers.PrimaryKeyRelatedField(
+        queryset=Product.objects.filter(
+            is_active=True
+        ),
+        write_only=True
+    )
 
     class Meta:
         model = ProductPrice
