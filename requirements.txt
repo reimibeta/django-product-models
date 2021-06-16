@@ -1,16 +1,16 @@
 asgiref==3.3.4
-datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git@294106b8b43ebd33c2b65dcf4e5b55077f8de32c
+datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git
 Django==3.1.7
 django-admin-list-filter-dropdown==1.0.3
 django-cleanup==5.2.0
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.0
 drf-flex-fields==0.9.0
-html-render-utils @ git+https://github.com/reimibeta/django-html-render-utils.git@9235f40df07a1d63f2573837718db4ef31efe7eb
-image-utils @ git+https://github.com/reimibeta/django-image-utils.git@145c80c2a8de0ac59c648671e3242578b6efbc7d
+html-render-utils @ git+https://github.com/reimibeta/django-html-render-utils.git
+image-utils @ git+https://github.com/reimibeta/django-image-utils.git
 Pillow==8.2.0
 PyJWT==2.1.0
 pytz==2021.1
-rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git@764007b810f1c3609cca6c0e146da746531aa929
+rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git
 sqlparse==0.4.1
-stock-algorithms @ git+https://github.com/reimibeta/django-stock-utils.git@af1291decd5f2e2e0387a57186dff2335b026836
+stock-algorithms @ git+https://github.com/reimibeta/django-stock-utils.git
