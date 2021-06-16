@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('name', models.CharField(max_length=255, unique=True)),
-                ('created_date', models.DateField(default=datetime_utils.date_time.DateTime.datenow)),
+                ('created_date', models.DateField(default=datetime_utils.date_time.DateTime(config='date').now())),
                 ('updated_date', models.DateField(blank=True, null=True)),
                 ('is_active', models.BooleanField(default=True)),
             ],

@@ -11,6 +11,6 @@ image-utils @ git+https://github.com/reimibeta/django-image-utils.git@145c80c2a8
 Pillow==8.2.0
 PyJWT==2.1.0
 pytz==2021.1
-rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git@b7ec67b0138d1a8277f3418edadc5451aa7a41c4
+rest-framework-utils @ git+https://github.com/reimibeta/django-rest-framework-utils.git@764007b810f1c3609cca6c0e146da746531aa929
 sqlparse==0.4.1
 stock-algorithms @ git+https://github.com/reimibeta/django-stock-utils.git@af1291decd5f2e2e0387a57186dff2335b026836

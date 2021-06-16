@@ -9,7 +9,7 @@ from django.dispatch import receiver
 class Product(models.Model):
     name = models.CharField(max_length=255, unique=True)
     # price = models.DecimalField(max_digits=20, decimal_places=2, default=Decimal(0.00))
-    created_date = models.DateField(default=DateTime.datenow)
+    created_date = models.DateField(default=DateTime(config='date').now())
     updated_date = models.DateField(blank=True, null=True)
     is_active = models.BooleanField(default=True)
 
