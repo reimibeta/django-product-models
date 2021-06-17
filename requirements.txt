@@ -1,12 +1,12 @@
 Django==3.1.7
 django-admin-list-filter-dropdown==1.0.3
 django-cleanup==5.2.0
+django-datetime @ git+https://github.com/reimibeta/django-datetime.git@c72c75ca5f2a46895598dcc0ce78bf1127c0c40b
+django-html-render @ git+https://github.com/reimibeta/django-html-render.git@03de9608e80fd65bdbce4dbfa6dd7b5f555895a0
+django-image @ git+https://github.com/reimibeta/django-image-utils.git@ddfe248768f935947e61f4b8be17deaf64b6a09d
+django-rest-framework @ git+https://github.com/reimibeta/django-rest-framework.git@503852d3fda3717b0de0932a216d27caa668e743
+django-stock @ git+https://github.com/reimibeta/django-stock.git@c545e0dd5e2f40462c70e19e58cad9db08e89dc8
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.0
 drf-flex-fields==0.9.0
-django-image @ git+https://github.com/reimibeta/django-image-utils.git
 Pillow==8.2.0
-django-stock @ git+https://github.com/reimibeta/django-stock.git
-django-datetime @ git+https://github.com/reimibeta/django-datetime.git@c72c75ca5f2a46895598dcc0ce78bf1127c0c40b
-django-html-render @ git+https://github.com/reimibeta/django-html-render.git@03de9608e80fd65bdbce4dbfa6dd7b5f555895a0
-django-rest-framework @ git+https://github.com/reimibeta/django-rest-framework.git@503852d3fda3717b0de0932a216d27caa668e743
