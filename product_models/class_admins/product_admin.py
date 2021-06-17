@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter, RelatedDropdownFilter
-from image_utils.renders.render_image import render_image
+from django_image.renders.render_image import render_image
 
 from product_models.class_admins.product_image_admin import ProductImageAdminInline
 from product_models.class_admins.product_material_admin import ProductMaterialAdminInline
