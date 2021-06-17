@@ -11,6 +11,6 @@ import setuptools
 
 setuptools.setup(
     name='product_models',
-    version='1.0.5',
+    version='1.0.6',
     packages=setuptools.find_packages()
 )

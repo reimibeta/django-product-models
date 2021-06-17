@@ -3,7 +3,7 @@
 from decimal import Decimal
 from django.db import migrations, models
 import django.db.models.deletion
-from django_datetime.date_time import datetime
+from django_datetime.datetime import datetime
 
 
 class Migration(migrations.Migration):
