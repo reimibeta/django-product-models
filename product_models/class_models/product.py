@@ -25,4 +25,4 @@ def update(sender, instance, **kwargs):
     if instance is None:
         pass
     else:
-        instance.updated_date = DateTime.datenow()
+        instance.updated_date = datetime.dnow(str=True)
